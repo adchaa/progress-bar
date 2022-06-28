@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.bar {
+  margin: 10px;
+  display: flex;
+  border: 3px black solid;
+  border-radius: 10px;
+  position: relative;
+  height: 15px;
+  width: 50vw;
+}
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: red;
+  border-radius: 10px;
+}
